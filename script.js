@@ -7,53 +7,138 @@ let palavraSecretaSorteada;
 
 const palavras = [
     palavra001 = {
-        nome : "POLIETILENO",
-        categoria : "POLÍMEROS MAIS UTILIZADOS NO BRASIL"
+        nome : "ABELHA",
+        categoria : "Qual inseto produz mel?"
     },
     palavra002 = {
-        nome : "POLIPROPILENO",
-        categoria : "POLÍMEROS MAIS UTILIZADOS NO BRASIL"
+        nome : "LEAO",
+        categoria : "Quem é o rei da selva?"
     },
     palavra003 = {
-        nome : "POLIESTIRENO",
-        categoria : "POLÍMEROS MAIS UTILIZADOS NO BRASIL"
+        nome : "BALEIA",
+        categoria : "Qual é o maior animal do mar?"
     },
     palavra004 = {
-        nome : "NYLON",
-        categoria : "PARA QUE SERVE UM POLIMEFERO"
+        nome : "MACACO",
+        categoria : "Qual animal ama Banana?"
     },
     palavra005 = {
-        nome : "FIBRAS",
-        categoria : "PARA QUE SERVE UM POLIMEFERO"
+        nome : "ZEBRA",
+        categoria : "Qual animal tem listras pretas e brancas?"
     },
     palavra006 = {
-        nome : "PVC",
-        categoria : "PARA QUE SERVE UM POLIMEFERO"
+        nome : "LEOA",
+        categoria : "Quem é a parceira do Leao?"
     },
     palavra007 = {
-        nome : "BORRACHA",
-        categoria : "ONDE SÃO ENCONTRADOS OS POLÍMIFEROS NATURAIS"
+        nome : "BODE",
+        categoria : "Qual é o animal que vive encima da montanha?"
     },
     palavra008 = {
-        nome : "AMIDO",
-        categoria : "ONDE SÃO ENCONTRADOS OS POLÍMIFEROS NATURAIS"
+        nome : "GALINHA",
+        categoria : "Quem é a mae dos pintinhos?"
     },
     palavra009 = {
-        nome : "CELULOSE",
-        categoria : "ONDE SÃO ENCONTRADOS OS POLÍMIFEROS NATURAIS"
+        nome : "GALO",
+        categoria : "Quem faz Có Có Có ri có?"
     } , 
     palavra010 = {
-        nome : "OTICAS",
-        categoria : "QUAIS AS PROPRIEDADES DOS POLÍMEROS"
+        nome : "PATO",
+        categoria : "Qual é o animal que pode andar em todos os terrenos: mar, terra e ar:"
     },
     palavra011 = {
-        nome : "REOLOGICAS",
-        categoria : "QUAIS AS PROPRIEDADES DOS POLÍMEROS"
+        nome : "GATO",
+        categoria : "Qual é o animal que gosta de leite?"
     },
-    palavra011 = {
-        nome : "DEGRADACAO",
-        categoria : "QUAIS AS PROPRIEDADES DOS POLÍMEROS"
+    palavra012 = {
+        nome : "DOIS",
+        categoria : "Quantos pares de asas a aguia tem ? "
+    },
+    palavra013 = {
+        nome : "CORDEIRO",
+        categoria : "Como se chama o filhote da ovelha ? "
+    },
+    palavra014 = {
+        nome : "OITO",
+        categoria : "Quantas pernas tem um polvo ? "
+    },
+    palavra015 = {
+        nome : "BAMBU",
+        categoria : "Oque o panda come ? "
+    },
+    palavra016 = {
+        nome : "MORCEGO",
+        categoria : "Qual é o unico mamifero que pode voar ? "
+    },
+    palavra017 = {
+        nome : "CACHORRO",
+        categoria : "Qual é o animal conhecido como amigo do homem ? "
     },      
+    palavra018 = {
+        nome : "ELEFANTE",
+        categoria : "Qual é o animal terrestre que não pode pular ? "
+    },
+    palavra019 = {
+        nome : "BEIJAFLOR",
+        categoria : "Qual é o passaro que pode voar para trás ? "
+    },
+    palavra020 = {
+        nome : "AVESTRUZ",
+        categoria : "Qual é a ave mais alta do mundo ? "
+    },
+    palavra021 = {
+        nome : "FALCAO",
+        categoria : "Qual é o passaro mais rapido ? "
+    },
+    palavra022 = {
+        nome : "FORMIGA",
+        categoria : "Qual é o inseto que pode levantar até 50x o seu peso ? "
+    },
+    palavra023 = {
+        nome : "PYTHON",
+        categoria : "Qual é a cobra mais grande ? "
+    },
+    palavra024 = {
+        nome : "DEZ",
+        categoria : "Quantas pernas tem uma lagosta ? "
+    },
+    palavra025 = {
+        nome : "OITO",
+        categoria : "Quantos pernas tem uma aranha ? "
+    },
+    palavra026 = {
+        nome : "BALEIA",
+        categoria : "Qual é o maior mamifero ? "
+    },
+    palavra027 = {
+        nome : "POLVO",
+        categoria : "Qual animal tem tres corações ? "
+    },
+    palavra028 = {
+        nome : "SAPOBOI",
+        categoria : "Qual animal nunca dorme ? "
+    },
+    palavra029 = {
+        nome : "NENHUM",
+        categoria : "Quantos ossos o tubarao tem ? "
+    },
+    palavra030 = {
+        nome : "TRES",
+        categoria : "Quantos anos o caracol pode dormir ? "
+    },
+    palavra031 = {
+        nome : "SIM",
+        categoria : "Os coelhos nascem cego ? "
+    },
+    palavra032 = {
+        nome : "SAPO",
+        categoria : "Qual é o animal que respira pela pele ? "
+    },
+    palavra032 = {
+        nome : "BARATA",
+        categoria : "Qual é o inseto que se você ver você diz Aii socorroo, Meu Deus que medo ? "
+    },
+
 ];
 
 function criarPalavraSecreta() {
