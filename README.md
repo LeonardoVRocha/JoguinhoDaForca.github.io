@@ -1,6 +1,6 @@
 # 🥳Jogo da  Forca🥳
 
-##🤓 Jogo realizado para aprimorar a lógica.
+## 🤓 Jogo realizado para aprimorar a lógica.
 
 ### Tech realizadas no projeto:
 
